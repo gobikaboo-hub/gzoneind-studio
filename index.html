@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GZoneIND Studio | Designing, Editing & Creative Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="GZoneIND Studio – Designing, Editing & Creative Services. Reels, social media content, branding, thumbnails and more." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-dot"></span>
+        <span class="logo-text">GZoneIND <span class="logo-sub">Studio</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#reels">Reels & Content</a>
+        <a href="#collab">Collab</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">
+        Book a Slot
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#services" onclick="closeMenu()">Services</a>
+    <a href="#reels" onclick="closeMenu()">Reels & Content</a>
+    <a href="#collab" onclick="closeMenu()">Collab</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+  </div>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <p class="eyebrow">Design • Edit • Elevate</p>
+          <h1>Your Visual Partner for Bold, Clean & Modern Content.</h1>
+          <p class="hero-text">
+            GZoneIND Studio helps creators, brands and businesses turn ideas into scroll-stopping visuals –
+            reels, thumbnails, carousels, logos, and full social media packages.
+          </p>
+          <div class="hero-actions">
+            <a href="#reels" class="btn primary">View Work</a>
+            <a href="#collab" class="btn ghost">Let’s Collab</a>
+          </div>
+          <div class="hero-meta">
+            <span>🎨 Design + Video</span>
+            <span>⚡ Fast delivery</span>
+            <span>📱 IG-first mindset</span>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="hero-card">
+            <p class="hero-tag">GZoneIND • Insta-first Studio</p>
+            <h2>Content that looks premium and feels personal.</h2>
+            <p class="hero-small">
+              Built for Instagram, YouTube, and brand stories. Clean layouts inspired by wavespace-style
+              minimalism – with your personality at the centre.
+            </p>
+            <div class="hero-stats">
+              <div>
+                <h3>+100</h3>
+                <p>Designs & edits</p>
+              </div>
+              <div>
+                <h3>5 sec</h3>
+                <p>To grab attention</p>
+              </div>
+              <div>
+                <h3>1:1</h3>
+                <p>Personal collab</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="eyebrow">About</p>
+          <h2>GZoneIND is your creative zone on the internet.</h2>
+          <p class="section-text">
+            I’m Gobi – designer, editor and creator behind GZoneIND Studio.
+            From minimal corporate layouts to playful creator-style edits, I blend structure and creativity
+            so your brand looks clear, confident and instantly recognisable.
+          </p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>What I do</h3>
+            <ul>
+              <li>Instagram reels & shorts editing</li>
+              <li>Post & carousel design</li>
+              <li>Thumbnails & cover art</li>
+              <li>Brand kits & simple logos</li>
+              <li>Portfolio & promo visuals</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3>How I work</h3>
+            <ul>
+              <li>Understand your vibe, audience and goals</li>
+              <li>Create 1–2 visual directions to choose from</li>
+              <li>Refine quickly with feedback loops</li>
+              <li>Deliver ready-to-post assets</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3>Best fit for</h3>
+            <ul>
+              <li>Creators & influencers</li>
+              <li>Small businesses & startups</li>
+              <li>Students & freelancers</li>
+              <li>Anyone who wants clean, modern visuals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section-alt" id="services">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="eyebrow">Services</p>
+          <h2>Designing & editing services in one place.</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Reel & Short Video Editing</h3>
+            <p>
+              Snappy cuts, captions, overlays and music sync for Instagram Reels, YouTube Shorts and more.
+            </p>
+            <ul class="pill-list">
+              <li>Trend-based edits</li>
+              <li>Text overlays</li>
+              <li>Transitions</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Instagram Content Design</h3>
+            <p>
+              Feed-ready posts, stories and carousels that keep your grid looking clean, cohesive and on-brand.
+            </p>
+            <ul class="pill-list">
+              <li>Carousels</li>
+              <li>Stories</li>
+              <li>Highlight covers</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Branding Essentials</h3>
+            <p>
+              Simple but strong brand kits – colours, fonts, logo variants and templates tailored for social media.
+            </p>
+            <ul class="pill-list">
+              <li>Logo basics</li>
+              <li>Colour palette</li>
+              <li>Post templates</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Thumbnail & Promo Visuals</h3>
+            <p>
+              Eye-catching thumbnails for YouTube, course previews, events and launches.
+            </p>
+            <ul class="pill-list">
+              <li>Bold typography</li>
+              <li>Layered compositions</li>
+              <li>Multi-platform sizes</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reels & Content -->
+    <section class="section" id="reels">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="eyebrow">Reels & Content</p>
+          <h2>Recent edits & designs.</h2>
+          <p class="section-text">
+            Replace these placeholders with your own screenshots, thumbnails or short GIFs from your work.
+          </p>
+        </div>
+        <div class="reel-grid">
+          <div class="reel-card">
+            <div class="reel-thumb placeholder">
+              <span>Reel Cover 1</span>
+            </div>
+            <h3>Energy Edit for Creator</h3>
+            <p>Fast cuts + captions + bold colours for a personal brand reel.</p>
+          </div>
+          <div class="reel-card">
+            <div class="reel-thumb placeholder">
+              <span>Reel Cover 2</span>
+            </div>
+            <h3>Minimal Product Reel</h3>
+            <p>Clean layout focusing on product details and subtle motion.</p>
+          </div>
+          <div class="reel-card">
+            <div class="reel-thumb placeholder">
+              <span>Carousel / Post</span>
+            </div>
+            <h3>Carousel for Info Post</h3>
+            <p>Typography-first design for educational or infographic content.</p>
+          </div>
+        </div>
+        <div class="reel-cta">
+          <a class="btn ghost" href="https://www.instagram.com/gzoneind/" target="_blank" rel="noreferrer">
+            View full portfolio on Instagram ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collab -->
+    <section class="section section-alt" id="collab">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="eyebrow">Collab</p>
+          <h2>Let’s create something in your style.</h2>
+          <p class="section-text">
+            Whether you’re a brand, creator or student, we can design a content flow that fits your budget and pace.
+            Tell me where you are right now and what you want to build next.
+          </p>
+        </div>
+        <div class="collab-layout">
+          <div class="collab-steps">
+            <div class="step">
+              <span class="step-number">01</span>
+              <div>
+                <h3>Share your idea</h3>
+                <p>Send your references, raw clips or screenshots with a small note on what you want.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step-number">02</span>
+              <div>
+                <h3>Get a quick concept</h3>
+                <p>Receive 1–2 directions (colours, typography, layout) before we lock the style.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step-number">03</span>
+              <div>
+                <h3>Refine & deliver</h3>
+                <p>We tweak based on your feedback and send ready-to-post designs or edited videos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="collab-card">
+            <h3>Quick collab note</h3>
+            <p>Use this format when you DM or email:</p>
+            <ul>
+              <li><strong>Platform:</strong> IG / YT / Both</li>
+              <li><strong>Type:</strong> Reel / Post / Carousel / Thumbnail</li>
+              <li><strong>Timeline:</strong> When you need it</li>
+              <li><strong>Budget range:</strong> Optional but helpful</li>
+            </ul>
+            <p class="small">
+              I usually reply within 24 hours. For urgent edits, mention <strong>“priority edit”</strong> in your message.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="eyebrow">Contact</p>
+          <h2>Ready to start? Let’s talk.</h2>
+          <p class="section-text">
+            Choose the channel that’s easiest for you. Instagram DMs are perfect for quick collabs.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>DM on Instagram</h3>
+            <p>Fastest way to reach me for reels, posts and quick design projects.</p>
+            <a class="btn primary" href="https://www.instagram.com/gzoneind/" target="_blank" rel="noreferrer">
+              Message on Instagram
+            </a>
+          </div>
+          <div class="contact-card">
+            <h3>Mail for detailed projects</h3>
+            <p>Use this for structured projects, multiple deliverables or monthly retainers.</p>
+            <p class="contact-item"><strong>Email:</strong> <span>yourmail@example.com</span></p>
+            <p class="small">Replace with your real email ID before sharing this site.</p>
+          </div>
+          <div class="contact-card">
+            <h3>Basic enquiry form</h3>
+            <form class="contact-form" onsubmit="handleForm(event)">
+              <label>
+                Name
+                <input type="text" required />
+              </label>
+              <label>
+                Instagram ID or Email
+                <input type="text" required />
+              </label>
+              <label>
+                What do you want to create?
+                <textarea rows="3" required></textarea>
+              </label>
+              <button class="btn primary" type="submit">Send (demo)</button>
+              <p class="small">
+                This is a front-end demo only. Connect a real form tool (like Google Forms or Formspree) to receive responses.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> GZoneIND Studio. Designed & built by Gobi.</p>
+      <a href="https://www.instagram.com/gzoneind/" target="_blank" rel="noreferrer">@gzoneind</a>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav
+    const navToggle = document.getElementById('navToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    function closeMenu() {
+      mobileMenu.classList.remove('open');
+    }
+
+    navToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('open');
+    });
+
+    // Simple year footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Demo form
+    function handleForm(e) {
+      e.preventDefault();
+      alert('This is a demo form. Connect it to a real backend or form tool to collect responses.');
+    }
+  </script>
+</body>
+</html>
